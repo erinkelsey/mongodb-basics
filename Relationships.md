@@ -26,3 +26,24 @@ Embed documents inside other documents (i.e. reviews array), to establish relati
         ]
       }
     )
+
+## Link Documents with IDs:
+
+    {
+      _id: 1,
+      name: "Pen",
+      price: 1.20,
+      stock: 32
+    }
+
+    {
+      _id: 2,
+      name: "Pencil",
+      price: 0.80,
+      stock: 12
+    }
+
+    {
+      orderNumber: 3243,
+      productsOrdered: [1, 2]
+    }
