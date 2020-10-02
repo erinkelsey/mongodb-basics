@@ -64,3 +64,8 @@ Exit:
 ### Show collections in DB
 
     > show collections
+
+### Delete Database
+
+    > use <db_name>
+    > db.dropDatabase()

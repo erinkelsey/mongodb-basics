@@ -1,3 +1,6 @@
+/**
+ * Setup mongo client
+ */
 const MongoClient = require("mongodb").MongoClient;
 const assert = require("assert");
 
@@ -21,6 +24,12 @@ client.connect((err) => {
   });
 });
 
+/**
+ * Insert new documents into the fruits collection in the db.
+ *
+ * @param {String} db the database to insert documents into
+ * @param {Function} callback function called when insert is complete
+ */
 const insertDocuments = (db, callback) => {
   const collection = db.collection("fruits");
 
@@ -52,6 +61,12 @@ const insertDocuments = (db, callback) => {
   );
 };
 
+/**
+ * Returns all the documents in the db for fruits collection.
+ *
+ * @param {String} db the database to insert documents into
+ * @param {Function} callback function called when insert is complete
+ */
 const findDocuments = (db, callback) => {
   const collection = db.collection("fruits");
 

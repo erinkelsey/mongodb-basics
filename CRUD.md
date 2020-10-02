@@ -1,4 +1,4 @@
-# CRUD (Create, Read, Update, Delete) with MongoDB
+# CRUD (Create, Read, Update, Delete) with MongoDB Shell
 
 https://docs.mongodb.com/manual/crud/
 
