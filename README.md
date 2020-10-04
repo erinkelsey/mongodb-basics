@@ -69,3 +69,7 @@ Exit:
 
     > use <db_name>
     > db.dropDatabase()
+
+### Delete Collection
+
+    > db.<collection>.drop()
